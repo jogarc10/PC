@@ -1,5 +1,5 @@
-
-
+package exercise1;
+ 
 public class ThreadExercise1_decrement implements Runnable {
 	int m;
 	
