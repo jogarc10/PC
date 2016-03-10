@@ -11,9 +11,9 @@ public class ThreadExercise1_decrement implements Runnable {
 		for(int i = 0; i < m ; i++){
 			Main.decr = true;
 			Main.last = 2;
-			while(!Main.incr || Main.last == 1);
-			Main.shared_variable--;
 			System.out.println("Decremenet " + Main.shared_variable);
+			while(Main.incr && Main.last == 2);
+			Main.shared_variable--;
 			Main.decr = false;
 		}
 	}
