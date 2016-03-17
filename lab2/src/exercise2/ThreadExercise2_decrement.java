@@ -11,7 +11,7 @@ public class ThreadExercise2_decrement implements Runnable {
 	}
 
 	public void run() {
-		for(int i = 0; i < Main.TOTAL_STEPS ; i++){
+		for(int iter = 0; iter < Main.TOTAL_STEPS ; iter++){
 			for(int j = 1; j <= Main.n; j++){
 				Main.in[i] = j;
 				Main.last[j] = i;
